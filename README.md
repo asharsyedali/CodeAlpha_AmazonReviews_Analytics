@@ -6,15 +6,31 @@ BS Artificial Intelligence | Data Analytics Intern
 
 ---
 
+## 🎥 Project Explanation Video
+
+A complete walkthrough of this project is available in the repository:
+
+📽️ **Project_Explaination.mp4**
+
+The video covers:
+- Project overview
+- Dataset explanation
+- EDA insights
+- Data visualizations
+- Sentiment analysis implementation
+- Model performance discussion
+
+---
+
 ## 📖 Project Overview
 
-This project was completed as part of the CodeAlpha Data Analytics Internship.  
+This project was completed as part of the CodeAlpha Data Analytics Internship.
 
-The objective of this project was to analyze Amazon product reviews and extract meaningful insights using data analytics and machine learning techniques.
+The objective was to analyze Amazon product reviews and extract meaningful insights using data analytics and machine learning techniques.
 
 The project integrates:
 
-- Web Scraping (Conceptual Explanation)
+- Web Scraping (Conceptual Implementation)
 - Exploratory Data Analysis (EDA)
 - Data Visualization
 - Sentiment Analysis using Machine Learning
@@ -53,96 +69,77 @@ After cleaning:
 
 ---
 
-## ✅ Task 1: Web Scraping (Conceptual Implementation)
+## ✅ Task 1: Web Scraping (Conceptual)
 
-The project explains how review data can be collected from Amazon using:
+Explained how review data can be scraped from Amazon using:
 
-- `requests` for sending HTTP requests
-- `BeautifulSoup` for parsing HTML
-- Extraction of:
-  - Review Text
-  - Rating
-  - Price
-  - Date
+- Requests (HTTP requests)
+- BeautifulSoup (HTML parsing)
+- Data extraction and CSV storage
 
-The provided dataset represents the structured data that would be obtained after scraping.
+The dataset used in this project represents structured data that would be obtained after scraping.
 
 ---
 
 ## ✅ Task 2: Exploratory Data Analysis (EDA)
 
-The dataset was cleaned and analyzed to understand customer behavior.
+Performed data cleaning and analysis to understand customer behavior.
 
-### Key EDA Steps:
+### Key Steps:
 
 - Removed missing ratings
-- Converted rating to integer
-- Extracted numeric price from JSON format
-- Converted review date to datetime format
-- Created yearly trend analysis
+- Converted rating to integer format
+- Extracted numeric price from JSON structure
+- Converted review dates to datetime format
+- Analyzed yearly rating trends
+- Evaluated helpful vote distribution
 
-### 📊 Insights from EDA:
+### 📊 Key Insights:
 
-- Majority of reviews were 5-star ratings.
-- Ratings showed a slight dip around 2014 but improved afterward.
-- Higher-priced products tended to receive better ratings (up to 4 stars).
-- 2-star and 3-star reviews received the highest average helpful votes.
+- Majority of reviews are 5-star ratings.
+- Ratings dipped around 2014 and improved afterward.
+- Higher-priced products tend to receive better ratings (up to 4 stars).
+- 2-star and 3-star reviews receive the highest average helpful votes.
 
 ---
 
 ## ✅ Task 3: Data Visualization
 
-Multiple visualizations were created to support analytical insights:
+Created meaningful visualizations to support insights:
 
 - Rating distribution bar chart
 - Average price by rating
-- Rating trend over time (line plot)
-- Helpful votes vs rating comparison
+- Rating trend over time
+- Helpful votes comparison
 - Confusion matrix for model evaluation
 
-These visualizations help transform raw data into meaningful business insights.
+These visuals transform raw data into interpretable business insights.
 
 ---
 
 ## ✅ Task 4: Sentiment Analysis
 
-A machine learning model was built to classify reviews as Positive or Negative.
+Built a machine learning model to classify reviews as Positive or Negative.
 
-### 🔹 Steps Performed:
+### Process:
 
-1. Text cleaning (lowercasing, removing punctuation)
+1. Text cleaning and preprocessing
 2. Removed neutral (3-star) reviews
-3. Created binary sentiment labels:
-   - 4–5 stars → Positive
-   - 1–2 stars → Negative
+3. Created binary sentiment labels
 4. Balanced dataset using downsampling
 5. Applied TF-IDF vectorization
 6. Trained Logistic Regression model
-7. Evaluated performance using:
-   - Accuracy
-   - Precision
-   - Recall
-   - F1-score
-   - Confusion Matrix
+7. Evaluated using accuracy, precision, recall, F1-score
 
 ---
 
 ## 🤖 Model Performance
 
-- Dataset balanced: 152 samples
-- Model Used: Logistic Regression
+- Balanced dataset: 152 samples
+- Model: Logistic Regression
 - Accuracy Achieved: **74%**
 
-The model demonstrated stable performance across both positive and negative classes.
-
----
-
-## 📌 Key Takeaways
-
-- Customer reviews are predominantly positive.
-- Mid-range reviews (2–3 stars) provide more helpful insights.
-- Product pricing influences ratings but not strictly linearly.
-- Sentiment analysis can effectively classify customer opinion using NLP techniques.
+The model demonstrated stable classification performance across both classes.
 
 ---
 
@@ -150,13 +147,13 @@ The model demonstrated stable performance across both positive and negative clas
 
 This project demonstrates practical implementation of:
 
-- Data cleaning and preprocessing
-- Statistical exploration
+- Data preprocessing
+- Statistical analysis
 - Data visualization
 - Natural Language Processing (NLP)
-- Machine Learning model building
+- Machine Learning modeling
 
-It reflects real-world data analytics workflow and business insight extraction.
+It reflects a real-world data analytics workflow from raw data to predictive insights.
 
 ---
 
